@@ -1,0 +1,193 @@
+.main-section {
+  font-family: dm sans, sans-serif;
+  color: #1d1e20;
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  /* background: url(/src/img/background2.svg) no-repeat fixed left center; */
+  /* background: url(/src/assets/images/image4.jpg) no-repeat fixed left center; */
+  background-size: cover;
+}
+
+.main-section .login-section {
+  display: flex;
+  flex: 1 0 50%;
+  align-items: center;
+  max-width: 612px;
+  line-height: 24px;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.95) 20%,
+      rgba(255, 255, 255, 0.65) 100%);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10); */
+}
+
+.loginfotter {
+  background: #fff;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  min-height: 3.35rem;
+  transition: all 0.3s ease;
+}
+
+.main-section-blanco {
+  font-family: dm sans, sans-serif;
+  color: #1d1e20;
+  display: flex;
+  /* justify-content: flex-end; */
+  height: 100vh;
+  /* background: url(/src/img/background2.svg) no-repeat fixed left center; */
+  /* background: #fff; */
+  background-size: contain;
+  /* background: linear-gradient(10deg, rgba(255, 180, 0, .5) 0, rgba(255, 180, 0, 0) 100%); */
+
+  background-image: url(https://static.coopsys.app/img/bannerlogin2.svg);
+  background-repeat: no-repeat;
+
+}
+
+.main-section-blanco .login-section-banner {
+  width: 33%;
+  height: 100%;
+}
+
+.main-section-blanco .login-section-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-section-blanco .login {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.main-section-blanco .login-section {
+  width: 100%;
+  /* height: 100%; */
+  overflow: auto;
+
+  /* display: flex;
+  flex: 1 0 50%;
+  align-items: center;
+  max-width: 612px;
+  line-height: 24px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.95) 20%,
+    rgba(255, 255, 255, 0.65) 100%
+  );
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10); */
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.main-section-blanco .login .login-section .login-wrapper img#logo {
+  margin-bottom: 40px;
+  top: auto;
+  top: initial;
+  display: inline;
+  width: 90%;
+}
+
+.textbrand {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(100, 116, 139);
+  cursor: default;
+}
+
+
+
+.main-section-blanco .login .login-section .login-wrapper {
+  width: 100%;
+  max-width: 365px;
+  padding: 80px 0px;
+  margin: auto;
+}
+
+
+.main-section-blanco-container {
+  /* background: linear-gradient(0deg, rgba(255, 179, 0, 0.171) 0, rgba(255, 180, 0, 0) 100%); */
+  content: "";
+  height: 100vh;
+  /* left: 50%; */
+  position: fixed;
+  /* transform: translateX(-50%) translateY(50%); */
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+/* Formulario de Register */
+
+
+
+
+.main-section-blanco .register-section-banner {
+  width: 33%;
+  height: 100%;
+}
+
+.main-section-blanco .register-section-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-section-blanco .register {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.main-section-blanco .register-section {
+  width: 100%;
+  /* height: 100%; */
+  overflow: auto;
+
+  /* display: flex;
+  flex: 1 0 50%;
+  align-items: center;
+  max-width: 612px;
+  line-height: 24px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.95) 20%,
+    rgba(255, 255, 255, 0.65) 100%
+  );
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10); */
+}
+
+.main-section-blanco .register .register-section .register-wrapper img#logo {
+  margin-bottom: 40px;
+  top: auto;
+  top: initial;
+  display: inline;
+  width: 160px;
+}
+
+.main-section-blanco .register .register-section .register-wrapper {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.main-section-blanco .register .register-section .register-wrapper form .row {
+  text-align: start !important;
+}

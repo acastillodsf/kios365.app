@@ -1,0 +1,267 @@
+.login-bg {
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.register-bg {
+  background-size: cover;
+  display: flex;
+  /* justify-content: flex-end; */
+  width: 100%;
+  height: 100%;
+}
+
+.hr {
+  border: 1px solid transparent;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+}
+
+.pills {
+  background-color: red;
+}
+
+.indicator-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.indicator-bar section {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.indicator-bar span {
+  display: flex;
+  background-color: gray;
+  height: 10px;
+  width: 24%;
+}
+
+.indicator-bar span.active {
+  background-color: green;
+}
+
+.modalTerminosEmbed {
+  height: 500px;
+  width: 100%;
+}
+
+
+
+.css-ifj919 {
+  margin-top: -120px;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 128px 40px 40px;
+  background: linear-gradient(135deg, rgb(0, 171, 85), rgb(0, 123, 85));
+}
+
+
+/* .c-body {
+  background: #ffffff !important;
+} */
+
+
+
+
+
+.c-sidebar .c-sidebar-brand {
+  color: #fff;
+  background: #ebedef;
+}
+
+.c-sidebar-nav {
+  background: rgba(48, 81, 151, 0.096);
+}
+
+.textend {
+  text-align: end;
+}
+
+.custom-map-modal .modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 100% !important;
+}
+
+.custom-map-modal .modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+
+.c-sidebar {
+  color: #000;
+  background: #ffffff;
+  border-right: 1px solid #d8dae0
+}
+
+.c-sidebar .c-sidebar-brand {
+  color: #fff;
+  background: #ffffff;
+}
+
+.c-sidebar-nav {
+  background: rgb(255 255 255 / 10%);
+  padding: 16px;
+}
+
+.c-sidebar .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+  color: rgba(0, 0, 0, 0.8);
+  background: transparent;
+  border-radius: 10px 10px 10px 10px;
+  height: 48px;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: rgba(3, 3, 3, 0.8);
+  background: rgba(215, 215, 215, 0.742);
+}
+
+.c-sidebar .c-sidebar-nav-link:hover .c-sidebar-nav-icon,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover .c-sidebar-nav-icon {
+  color: rgba(3, 3, 3, 0.8);
+}
+
+/* Icono */
+.c-sidebar .c-sidebar-nav-link .c-sidebar-nav-icon,
+.c-sidebar .c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color: rgb(39 70 148);
+}
+
+.c-sidebar .c-sidebar-nav-title {
+  color: rgb(0 0 0 / 60%);
+}
+
+.c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-dropdown-toggle {
+  color: #000;
+}
+
+.c-sidebar .c-sidebar-nav-dropdown.c-show {
+  background: #ffffff;
+}
+
+.c-sidebar-nav-link,
+.c-sidebar-nav-dropdown-toggle {
+  padding: 0.5445rem 1rem;
+}
+
+/* Active Menu  */
+.c-sidebar .c-sidebar-nav-link.c-active,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  color: #3367d6 !important;
+  background: #e8f0fe;
+  font-weight: bold;
+}
+
+.c-sidebar .c-sidebar-nav-link.c-active .c-sidebar-nav-icon,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color: #3367d6;
+}
+
+.c-sidebar .c-sidebar-minimizer {
+  background: #eaeaea;
+  border-radius: 0 0px 0 0;
+  color: rgba(0, 0, 0, .8);
+}
+
+.c-app {
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.css-vgsn9v {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+  overflow: hidden;
+  padding: 16px;
+  border-radius: 10px;
+  width: 480px;
+}
+
+.css-1izryvb {
+  margin: 0px;
+  letter-spacing: -0.24px;
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.167;
+  color: rgb(70, 70, 70);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.css-17nzk4v {
+  margin: 24px 0px 32px;
+  flex-shrink: 0;
+  align-self: stretch;
+  height: auto;
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  border: 0px;
+}
+
+.css-c1ovea {
+  display: inline-block;
+  padding-left: calc(9.6px);
+  padding-right: calc(9.6px);
+}
+
+
+.css-5b698u {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.06px;
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.167;
+  color: rgb(70, 70, 70);
+}
+
+
+
+.textend {
+  text-align: end;
+}
+
+
+.modal-full {
+  max-width: 97%;
+}
+
+
+
+
+.main-pantalla {
+  width: 100vw;
+  height: 100vh;
+  min-width: 900;
+  min-height: 1440;
+  font-family: dm sans, sans-serif;
+  color: #1d1e20;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  overflow: hidden;
+}

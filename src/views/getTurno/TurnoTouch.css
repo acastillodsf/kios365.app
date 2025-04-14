@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* .main-section {
+   font-family: dm sans, sans-serif;
+   color: #1d1e20;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   /* min-height: 99.75dvh; */
+/* O usa height: 100dvh; */
+/* background: url(http://10.0.30.28:3000/images/Kiosko01.png) no-repeat fixed left center;
+ background-size: cover;
+ overflow: hidden; */
+/* } */
+
+.main-kiosco01 {
+  width: 100vw;
+  height: 100vh;
+  min-width: 900;
+  min-height: 1440;
+  font-family: dm sans, sans-serif;
+  color: #1d1e20;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: url(http://10.0.30.28:3000/images/Kiosko01.webp) no-repeat fixed left center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-kiosco02 {
+  width: 100vw;
+  height: 100vh;
+  font-family: dm sans, sans-serif;
+  color: #1d1e20;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: url(http://10.0.30.28:3000/images/Kiosko01.webp) no-repeat fixed left center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body {
+  background: #3a9aa5;
+}
+
+
+.turno-logo {
+  display: flex;
+  flex: 1 0 50%;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  max-width: 80%;
+  line-height: 24px;
+  backdrop-filter: blur(3px);
+  background: 'blue';
+}
+
+.main-kiosco02 .turno-beinvenida-section {
+  display: flex;
+  flex: 1 0 50%;
+  /* align-items: center; */
+  margin-top: 500px;
+  max-width: 85%;
+  line-height: 24px;
+  background: #099ca5;
+  /* background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.95) 20%,
+      rgba(255, 255, 255, 0.65) 100%); */
+  backdrop-filter: blur(3px);
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10); */
+}
+
+
+.turno-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Ocupa todo el ancho disponible */
+  background: 'blue';
+}
+
+.keyboard-section {
+  display: flex;
+  flex: 1 0 50%;
+  align-items: center;
+  max-width: 100%;
+  line-height: 24px;
+  /* background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.95) 20%,
+      rgba(255, 255, 255, 0.65) 100%); */
+  backdrop-filter: blur(3px);
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+  /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10); */
+}
+
+
+
+.hg-button {
+  height: 50px !important;
+  /* Altura general */
+  font-size: 18px !important;
+}
+
+.green-button {
+  background: green !important;
+  color: white !important;
+}
+
+.red-button {
+  background: red !important;
+  color: white !important;
+}
+
+.large-button {
+  height: 60px !important;
+  margin-top: 30px !important;
+  /* Altura especial para Enter, Borrar y Cancelar */
+}
+
+.number-button {
+  margin-bottom: 8px !important;
+  /* Padding especial para números */
+}
+
+
+
+.loginfotter {
+  background: #fff;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  min-height: 3.35rem;
+  transition: all 0.3s ease;
+}
+
+
+.login-wrapper {
+  width: 100%;
+  max-width: 524px;
+  padding: 24px 40px;
+  margin: auto;
+}
+
+.login-wrapper h2 {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.login-wrapper img#logo {
+  margin-bottom: 40px;
+  top: initial;
+  display: block;
+  width: 260px;
+}
+
+.LoginLabel {
+  height: initial;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 4px;
+}
+
+.LoginInput2 {
+  height: initial;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #dad9da;
+  border-radius: 4px;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pantalla {
+    display: flex;
+    height: 84vh;
+    width: 71vh;
+    font-family: Arial, sans-serif;
+}
+
+.publicidad {
+    width: 80%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.turnos {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.turno {
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    margin: 0px 0;
+    border-radius: 4px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.turnos-container {
+    width: 100%;
+    /* background-color: #f4f4f4; */
+    padding: 5px;
+    display: flex;
+    background: '#2ea7a8';
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-turnos {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0px;
+    /* background-color: #f4f4f4; */
+    /* background: 'blue'; */
+}
+
+
+
+
+
+.turnos-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 40px;
+    font-weight: bold;
+    border-width: 0px;
+    background: #2ea7a8;
+    color: #ffffff;
+}
+
+.turnos-table th,
+.turnos-table td {
+    border: 0px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.turnos-table th {
+    background-color: #2ea7a8;
+    color: white;
+}
+
+
+
+.turnos-table tr:hover {
+    background-color: #ddd;
+}
