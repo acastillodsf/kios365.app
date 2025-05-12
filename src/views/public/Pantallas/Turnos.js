@@ -1,4 +1,9 @@
-const TurnosTable = ({ turnos }) => {
+
+
+
+const TurnosTable = ({ turnos, llamado }) => {
+
+    console.log(llamado)
     return (
         <div className="turnos-container">
             <table className="turnos-table">
@@ -9,8 +14,8 @@ const TurnosTable = ({ turnos }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {turnos.map((turno, index) => (
-                        <tr key={index}>
+                    {turnos.slice().reverse().slice(0, 5).map((turno, index) => (
+                        <tr key={index} className={llamado && turno.horafecha === llamado.horafecha ? "opaco cargando" : ""} >
                             <td>{turno.ticket}</td>
                             <td>{turno.puesto}</td>
                         </tr>

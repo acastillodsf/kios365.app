@@ -265,3 +265,13 @@
   background-size: cover;
   overflow: hidden;
 }
+
+
+
+.modal-custom-right .modal-dialog {
+  position: fixed;
+  top: -90px;
+  left: 100px;
+  margin: 0;
+  width: 630px;
+}

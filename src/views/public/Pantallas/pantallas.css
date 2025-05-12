@@ -51,9 +51,11 @@
 .turnos-container {
     width: 100%;
     /* background-color: #f4f4f4; */
-    padding: 5px;
+    padding: 0px;
+    padding-top: 4px;
+
     display: flex;
-    background: '#2ea7a8';
+    background: '#009aa2';
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -78,27 +80,66 @@
 .turnos-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: bold;
     border-width: 0px;
-    background: #2ea7a8;
+    background: #009aa2;
     color: #ffffff;
 }
 
 .turnos-table th,
 .turnos-table td {
     border: 0px solid #ddd;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
 }
 
+.turnos-table tr {
+    border: 2px solid white;
+}
+
 .turnos-table th {
-    background-color: #2ea7a8;
+    background-color: #009aa2;
     color: white;
+}
+
+.turnos-table tr:nth-child(odd) {
+    background-color: #00b5bc33;
+    /* tono más claro con opacidad */
+}
+
+.turnos-table tr:hover {
+    background-color: #ddd;
 }
 
 
 
-.turnos-table tr:hover {
-    background-color: #ddd;
+
+.opaco {
+    opacity: 0.5;
+    /* Ajusta el valor de opacidad según tus necesidades */
+    background-color: #feffff;
+    /* Fondo de color verde inicialmente */
+    pointer-events: none;
+    /* Desactiva la interacción del usuario si es necesario */
+    transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+
+@keyframes cargando {
+    0% {
+        background-color: #feffff;
+    }
+
+    50% {
+        background-color: rgb(158, 158, 161);
+    }
+
+    100% {
+        background-color: #feffff;
+    }
+}
+
+.opaco.cargando {
+    animation: cargando 1s infinite;
+    /* Aplica la animación cargando */
 }

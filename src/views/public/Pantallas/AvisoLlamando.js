@@ -16,6 +16,7 @@ const AvisoLlamando = ({ llamado }) => {
     return (
         <CModal show={llamado.show}
             closeOnBackdrop={false}
+            className="modal-custom-right"
             centered
             size="lg"
         >

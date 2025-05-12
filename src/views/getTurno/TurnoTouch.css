@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background: url(http://10.0.30.28:3000/images/Kiosko01.webp) no-repeat fixed left center;
+  background: url(http://kios365.app/images/Kiosko01.webp) no-repeat fixed left center;
   background-size: cover;
   overflow: hidden;
 }
@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background: url(http://10.0.30.28:3000/images/Kiosko01.webp) no-repeat fixed left center;
+  background: url(http://kios365.app/images/Kiosko01.webp) no-repeat fixed left center;
   background-size: cover;
   overflow: hidden;
 }

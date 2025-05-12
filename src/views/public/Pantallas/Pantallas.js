@@ -12,6 +12,7 @@ import PublicidadSlider from "./PublicidadSlider";
 import TurnosTable from "./Turnos";
 import AvisoLlamando from "./AvisoLlamando";
 import { formatTurno } from "src/views/getTurno/Tiket";
+import moment from "moment";
 
 
 // const turnos = [
@@ -39,8 +40,9 @@ const PantallasView = ({ match }) => {
     const [turnos, setturnos] = useState([])
     const [llamado, setLlamado] = useState({
         show: false,
-        ticket: "",
-        puesto: ''
+        ticket: "C01",
+        puesto: 'Caja 1',
+        horafecha: moment().format('YYYY-MM-DD h:mm:s A')
     })
 
 
@@ -107,7 +109,8 @@ const PantallasView = ({ match }) => {
                     seleccion.push(
                         {
                             ticket: `${llamado.alfa}${llamado.secuencia}`
-                            , puesto: `${llamado.puesto}`
+                            , puesto: `${llamado.puesto}`,
+                            horafecha: moment().format('YYYY-MM-DD H:mm:ss')
                         }
                     );
                     setturnos(seleccion)
@@ -115,7 +118,8 @@ const PantallasView = ({ match }) => {
                     setLlamado({
                         show: true,
                         ticket: formatTurno(llamado.alfa, llamado.secuencia),
-                        puesto: llamado.puesto
+                        puesto: llamado.puesto,
+                        horafecha: moment().format('YYYY-MM-DD H:mm:ss')
                     });
                 }
 
@@ -237,7 +241,7 @@ const PantallasView = ({ match }) => {
                     fontSize: '20px',
                     textAlign: 'center',
                 }}>
-                    <CImg src="/images/cooppropes.png" width="90%" />
+                    <CImg src="/images/cooppropes-color.png" width="90%" />
                 </CCol>
                 <CCol style={{
                     // width: '100%',
@@ -249,9 +253,10 @@ const PantallasView = ({ match }) => {
                     color: 'white',
                     fontSize: '20px',
                     textAlign: 'center',
-                    background: '#2ea7a8',
+                    background: '#009aa2',
+                    margin: 0,
                 }}>
-                    <TurnosTable turnos={turnos} />
+                    <TurnosTable turnos={turnos} llamado={llamado} />
                 </CCol>
             </CRow>
 
@@ -261,15 +266,16 @@ const PantallasView = ({ match }) => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                color: 'white',
+                background: '#009aa2',
                 fontSize: '20px',
                 textAlign: 'center',
-                height: '70%'
+                height: '70%',
+                padding: 0
             }}>
-                <CCol>
-                    <PublicidadSlider items={publicidad} />
 
-                </CCol>
+                <PublicidadSlider items={publicidad} />
+
+
 
             </CRow>
 
